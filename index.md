@@ -82,6 +82,8 @@ displayed if the 'eventbrite' field in the header is not set.
 }
 </style>
 
+### LOCATION
+**We will offer this workshop remotely. We will send you an email with details on how to join the workshop approximately twenty-four hours before the workshop begins.**
 
 <h2 id="general">General Information</h2>
 
@@ -113,8 +115,7 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
-### LOCATION
-**We will offer this workshop remotely. We will send you an email with details on how to join the workshop approximately twenty-four hours before the workshop begins.**
+
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
