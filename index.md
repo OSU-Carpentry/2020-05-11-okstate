@@ -115,17 +115,16 @@ workshop is only open to people from a particular institution.
 
 ### LOCATION
 **We will offer this workshop remotely. We will send you an email with details on how to join the workshop approximately twenty-four hours before the workshop begins.**
-
-{% comment %}
-{% if page.latitude and page.longitude %}
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
+</p>
+{% comment %}
+{% if page.latitude and page.longitude %}
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
   or
   <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
-</p>
 {% endif %}
 {% endcomment %}
 
