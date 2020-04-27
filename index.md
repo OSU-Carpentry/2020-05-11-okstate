@@ -113,12 +113,9 @@ workshop is only open to people from a particular institution.
 {% include lc/who.html %}
 {% endif %}
 
-LOCATION
+### LOCATION
+**We will offer this workshop remotely. We will send you an email with details on how to join the workshop approximately twenty-four hours before the workshop begins.**
 
-This block displays the address and links to maps showing directions
-if the latitude and longitude of the workshop have been set.  You
-can use https://itouchmap.com/latlong.html to find the lat/long of an
-address.
 {% if page.latitude and page.longitude %}
 <p id="where">
   <strong>Where:</strong>
