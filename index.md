@@ -301,10 +301,12 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
-  We will use [Azure notebooks](https://notebooks.azure.com/) for this workshop.
-  1. Go to the [Azure notebooks](https://notebooks.azure.com/) website.
-  1. Azure notebooks require a microsoft account. If you use OSU's instance of Outlook, you can log in with your OSU email and OKEY password. If you do not have an OSU Microsoft Exchange account, click "Sign In" in the upper-righthand corner and create an account when prompted.
-  1. Azure uses notebooks to store code, text, and output. We will send you a link to create a copy of the workshop notebook in your account.
+  We will use <a href="https://notebooks.azure.com/">Azure notebooks</a> for this workshop.
+  <ol>
+    <li>Go to the <a href="https://notebooks.azure.com/">Azure notebooks</a> website.</li>
+    <li>Azure notebooks require a microsoft account. If you use OSU's instance of Outlook, you can log in with your OSU email and OKEY password. If you do not have an OSU Microsoft Exchange account, click "Sign In" in the upper-righthand corner and create an account when prompted.</li>
+    <li>Azure uses notebooks to store code, text, and output. We will send you a link to create a copy of the workshop notebook in your account.</li>
+    </ol>
   
   To participate in a
   {% if site.carpentry == "swc" %}
